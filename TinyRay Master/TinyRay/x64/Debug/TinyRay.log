@@ -1,0 +1,99 @@
+﻿Build started 16/12/2016 15:35:37.
+     1>Project "C:\Users\Luke\Desktop\Tiny Ray Assignment\TinyRay\TinyRay\TinyRay.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D WINDOWS /D WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Box.cpp Camera.cpp Framebuffer.cpp Light.cpp Material.cpp TestApplication.cpp AppWindow.cpp Plane.cpp Ray.cpp RayTracer.cpp Scene.cpp Sphere.cpp TinyRayMain.cpp Triangle.cpp Vector3.cpp
+         Vector3.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\vector3.cpp(85): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\vector3.cpp(127): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\vector3.cpp(148): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\vector3.cpp(151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Triangle.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\triangle.cpp(107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         TinyRayMain.cpp
+         Sphere.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\sphere.cpp(25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\sphere.cpp(67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Scene.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(47): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(48): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\scene.cpp(44): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\scene.cpp(55): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\scene.cpp(66): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\scene.cpp(134): warning C4305: 'argument': truncation from 'double' to 'float'
+         RayTracer.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(47): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(48): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(84): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(86): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(106): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(108): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(110): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(171): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(197): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(243): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(244): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(245): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(249): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(276): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(287): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\raytracer.cpp(293): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Ray.cpp
+         Plane.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\plane.cpp(47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         AppWindow.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(47): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(48): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+         TestApplication.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(47): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(48): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+         Material.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(47): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(48): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+         Light.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(47): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(48): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\light.cpp(32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\light.cpp(37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Framebuffer.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(47): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\material.h(48): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+         Camera.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\camera.cpp(33): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\camera.cpp(48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Box.cpp
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\box.cpp(29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\box.cpp(30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\box.cpp(31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\box.cpp(32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\box.cpp(34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\box.cpp(35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\box.cpp(36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luke\desktop\tiny ray assignment\tinyray\tinyray\box.cpp(37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Debug\TinyRay.res" TinyRay.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luke\Desktop\Tiny Ray Assignment\TinyRay\x64\Debug\TinyRay.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Luke\Desktop\Tiny Ray Assignment\TinyRay\x64\Debug\TinyRay.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luke\Desktop\Tiny Ray Assignment\TinyRay\x64\Debug\TinyRay.lib" /MACHINE:X64 x64\Debug\TinyRay.res
+         x64\Debug\Box.obj
+         x64\Debug\Camera.obj
+         x64\Debug\Framebuffer.obj
+         x64\Debug\Light.obj
+         x64\Debug\Material.obj
+         x64\Debug\TestApplication.obj
+         x64\Debug\AppWindow.obj
+         x64\Debug\Plane.obj
+         x64\Debug\Ray.obj
+         x64\Debug\RayTracer.obj
+         x64\Debug\Scene.obj
+         x64\Debug\Sphere.obj
+         x64\Debug\TinyRayMain.obj
+         x64\Debug\Triangle.obj
+         x64\Debug\Vector3.obj
+         TinyRay.vcxproj -> C:\Users\Luke\Desktop\Tiny Ray Assignment\TinyRay\x64\Debug\TinyRay.exe
+     1>Done Building Project "C:\Users\Luke\Desktop\Tiny Ray Assignment\TinyRay\TinyRay\TinyRay.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.22
